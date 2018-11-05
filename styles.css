@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.center-fit {
+  height: 100%;
+  width: 100%;
+  position:absolute; 
+  margin: 0;
+  padding: 0;
+}
+
+.god {
+  position: absolute;
+  left: 60vw;
+  top: 2vh;
+  display: none;
+}
+
+#url-entry, #img-entry, p {
+  font-size: 2vh;
+}
+
+#url-entry {
+  width: 30vw;
+}
+
+p {
+  margin: 10px;
+}
+
+.file-entry {
+  display: flex; 
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  float: left;
+  position: absolute;
+  display: inline-block;
+  flex-direction: horizontal;
+  top: 30vh;
+}
+
+canvas {
+  display: none;
+  position: absolute;
+  top: 50vh;
+}
